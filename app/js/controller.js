@@ -1,5 +1,10 @@
-function TerminusSegmentsController($scope) {
+function TerminusSegmentsController($scope, $http) {
     $scope.skills = [];
+    $scope.segments = [];
+    $http.get('resources/segments.json').success(function (data) {
+        debugger;
+        $scope.segments = data;
+    });
 }
 
 /* json-text directive taken from here:

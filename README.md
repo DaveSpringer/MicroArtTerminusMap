@@ -1,6 +1,6 @@
-# MicroArtsTerminusMap
-<p>The Micro Arts Terminus Map is a tool intended to help you create the custom maps that you're interested from the Micro Arts Studio Terminus Kickstarter.</p>
-<a href="https://www.kickstarter.com/projects/1008762441/infinity-terminus-segments">Infinity Terminus Segments by Micro Arts Studio Kickstarter</a>
+# MicroArtTerminusMap
+<p>The Micro Art Terminus Map is a tool intended to help you create the custom maps that you're interested from the Micro Art Studio Terminus Kickstarter.</p>
+<a href="https://www.kickstarter.com/projects/1008762441/infinity-terminus-segments">Infinity Terminus Segments by Micro Art Studio Kickstarter</a>
 <br/>
 <p>Why do this?</p>
 <p>Because I think it's cool.  Do I need a better reason?</p>
