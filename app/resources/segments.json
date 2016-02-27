@@ -114,16 +114,9 @@
         }],
         "img": ""
     }, {
-        "id": "ts-9",
-        "pack": [{
-            "name": "tsbb",
-            "count": "1"
-        }],
-        "img": ""
-    }, {
         "id": "ts-10",
         "pack": [{
-            "name": "tsib",
+            "name": "tsbb",
             "count": "1"
         }],
         "img": ""
@@ -138,14 +131,14 @@
         "id": "ts-12",
         "pack": [{
             "name": "tsib",
-            "count": "2"
+            "count": "1"
         }],
         "img": ""
     }, {
         "id": "ts-13",
         "pack": [{
             "name": "tsib",
-            "count": "1"
+            "count": "2"
         }],
         "img": ""
     }, {
@@ -157,6 +150,13 @@
         "img": ""
     }, {
         "id": "ts-15",
+        "pack": [{
+            "name": "tsib",
+            "count": "1"
+        }],
+        "img": ""
+    }, {
+        "id": "ts-16",
         "pack": [{
             "name": "tsib",
             "count": "2"
