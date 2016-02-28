@@ -1,0 +1,5 @@
+@media (min-width: 800px) {
+    #mapArea{
+        max-width: 511px;
+    }
+}

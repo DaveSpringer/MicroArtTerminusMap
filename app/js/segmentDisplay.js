@@ -3,8 +3,10 @@ function segmentDisplay() {
         restrict: 'E',
         transclude: true,
         scope: {
-            name: '=',
-            exportSkill: '&'
+            id: '=',
+            selection: '=',
+            rotation: '=',
+            setDisplaySegment: '&'
         },
         templateUrl: 'templates/segment-display.html'
     };

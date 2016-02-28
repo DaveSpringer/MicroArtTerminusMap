@@ -10,19 +10,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
     <script src="js/controller.js"></script>
     <script src="js/segmentDisplay.js"></script>
+    <script src="js/segmentSelect.js"></script>
 </head>
 
 <body ng-controller="TerminusSegmentsController">
 
     <p>Nothing here {{'yet' + '!'}}</p>
-    <div id="packageSelect">
+    <div class="container" id="packageSelect">
         <div ng-repeat="segment in segments">
-            <segment-display name="segment.id"></segment-display>
+            <segment-select name="segment.id" select-segment="selectSegment(segment.id)"></segment-select>
         </div>
 
     </div>
+    <div id="mapArea" class="container" id="displayArea">
+        <div ng-repeat="displaySegment in displaySegments">
+            <segment-display id="displaySegment.id" selection="displaySegment.selection" rotation="displaySegment.rotation" set-display-segment="setDisplaySegment(displaySegment.id)"></segment-display>
+        </div>
+    </div>
     <div id="mapArea">
-        <div class="container">
+        <div class="container" style="max-width: 511px">
             <div class="row">
                 <div class="col-sm-1">Hi</div>
                 <div class="col-sm-1">There</div>
